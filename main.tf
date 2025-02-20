@@ -85,9 +85,5 @@ spec:
 YAML
 }
 
-# Readme file content
-data "local_file" "readme" {
-  filename = "README.md"
-  content = <<EOT
-# Terraform EKS with Karpenter
+
 
